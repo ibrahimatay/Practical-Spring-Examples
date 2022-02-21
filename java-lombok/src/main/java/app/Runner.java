@@ -1,8 +1,8 @@
 package app;
 
-import model.Person;
-import model.School;
-import model.Student;
+import app.model.Person;
+import app.model.School;
+import app.model.Student;
 
 public class Runner {
     public static void main(String[] args) {

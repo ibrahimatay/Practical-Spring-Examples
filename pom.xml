@@ -12,6 +12,7 @@
         <module>spring-boot-context-annotation</module>
         <module>spring-boot-context-bean-scopes</module>
         <module>java-lombok</module>
+        <module>spring-boot-stereotypes</module>
     </modules>
 
     <properties>
