@@ -13,6 +13,7 @@
         <module>spring-boot-context-bean-scopes</module>
         <module>java-lombok</module>
         <module>spring-boot-stereotypes</module>
+        <module>spring-boot-context-web</module>
     </modules>
 
     <properties>
