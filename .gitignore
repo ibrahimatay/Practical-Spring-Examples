@@ -152,7 +152,7 @@ gradle-app.setting
 
 ### Gradle Patch ###
 **/build/
-.idea
+**/.idea/*
 # Eclipse Gradle plugin generated files
 # Eclipse Core
 .project
