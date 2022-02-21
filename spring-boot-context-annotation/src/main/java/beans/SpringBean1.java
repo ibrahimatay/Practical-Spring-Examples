@@ -1,12 +1,14 @@
 package beans;
 
+import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 @Component
-public class SpringBean1 {
+public class SpringBean1 implements DisposableBean {
     @Autowired
     private SpringBean2 springBean2;
     @Autowired
@@ -23,6 +25,16 @@ public class SpringBean1 {
                 springBean2.getClass().getSimpleName(),
                 springBean3.getClass().getSimpleName()
         ));
+    }
+
+    @PreDestroy
+    public void preDestroy() {
+        System.out.println(getClass().getSimpleName() + "::preDestroy");
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        System.out.println(getClass().getSimpleName() + "::destroy");
     }
 
     public void sayHello() {
