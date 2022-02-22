@@ -15,6 +15,7 @@
         <module>spring-boot-stereotypes</module>
         <module>spring-boot-context-web</module>
         <module>spring-boot-testing</module>
+        <module>spring-boot-proxy</module>
     </modules>
 
     <properties>
