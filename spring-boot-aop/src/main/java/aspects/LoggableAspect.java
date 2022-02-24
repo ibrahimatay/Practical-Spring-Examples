@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-public class LoggableAnnotationAspect {
+public class LoggableAspect {
     @Before("@annotation(annotations.Loggable)")
     public void executingLoggableAdvice() {
         System.out.println("Executing loggable Advice...");
