@@ -18,6 +18,7 @@
         <module>spring-boot-proxy</module>
         <module>spring-boot-expression-language</module>
         <module>spring-boot-environment-abstraction</module>
+        <module>spring-boot-aop</module>
     </modules>
 
     <properties>
