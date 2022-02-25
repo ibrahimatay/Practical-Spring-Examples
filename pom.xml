@@ -20,6 +20,7 @@
         <module>spring-boot-environment-abstraction</module>
         <module>spring-boot-aop</module>
         <module>spring-boot-datasource-standalone</module>
+        <module>spring-boot-datasource-embedded-builder</module>
     </modules>
 
     <properties>
