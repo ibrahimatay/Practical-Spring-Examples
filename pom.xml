@@ -22,6 +22,7 @@
         <module>spring-boot-datasource-standalone</module>
         <module>spring-boot-datasource-embedded-builder</module>
         <module>spring-boot-datasource-application-server</module>
+        <module>spring-boot-jdbc-template</module>
     </modules>
 
     <properties>
