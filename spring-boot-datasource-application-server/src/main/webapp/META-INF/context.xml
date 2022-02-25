@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/Database" auth="Container" type="javax.sql.DataSource"
+              driverClassName="org.hsqldb.jdbcDriver" url="jdbc:hsqldb:mem:localhost"/>
+</Context>
