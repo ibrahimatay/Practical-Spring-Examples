@@ -8,7 +8,7 @@ import lombok.*;
 @EqualsAndHashCode(of = "id")
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder(access = AccessLevel.PUBLIC)
+@Builder
 @NonNull
 public class School {
     private Long id;
