@@ -26,7 +26,7 @@
     </modules>
 
     <properties>
-        <spring.framework.version>5.1.6.RELEASE</spring.framework.version>
+        <spring.framework.version>5.1.18.RELEASE</spring.framework.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
