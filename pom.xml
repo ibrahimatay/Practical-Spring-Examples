@@ -24,6 +24,7 @@
         <module>spring-boot-datasource-application-server</module>
         <module>spring-boot-jdbc-template</module>
         <module>spring-boot-jdbc-transaction</module>
+        <module>spring-boot-jpa-config</module>
     </modules>
 
     <properties>
