@@ -23,6 +23,7 @@
         <module>spring-boot-datasource-embedded-builder</module>
         <module>spring-boot-datasource-application-server</module>
         <module>spring-boot-jdbc-template</module>
+        <module>spring-boot-jdbc-transaction</module>
     </modules>
 
     <properties>
