@@ -3,6 +3,7 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" th:href="@{/main.css}">
 </head>
 <body>
 <div>
@@ -13,8 +14,9 @@
         <li th:text="${item.title}"></li>
     </ul>
 
-    <form action="#" th:action="@{/add}" th:object="${newTodoItem}" method="post">
+    <form action="#" th:action="@{/add}" th:object="${todoItem}" method="post">
         <p>Item: <input type="text" th:field="*{title}"/></p>
+        <span class="error" th:if="${#fields.hasErrors('title')}" th:errors="*{title}">Title Error</span>
         <p><input type="submit" value="Submit"/> <input type="reset" value="Reset"/></p>
     </form>
 </div>
