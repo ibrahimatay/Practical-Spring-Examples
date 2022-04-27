@@ -26,6 +26,7 @@
         <module>spring-boot-jdbc-transaction</module>
         <module>spring-boot-jpa-config</module>
         <module>spring-web-thymeleaf</module>
+        <module>spring-without-autoconfiguration</module>
     </modules>
 
     <properties>
