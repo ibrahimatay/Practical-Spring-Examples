@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div>
+    Your Todo List:
+
+    <p th:if="${todoItems.isEmpty()}">No tasks defined yet.</p>
+    <ul th:each="item: ${todoItems}">
+        <li th:text="${item.title}"></li>
+    </ul>
+
+    <form action="#" th:action="@{/add}" th:object="${newTodoItem}" method="post">
+        <p>Item: <input type="text" th:field="*{title}"/></p>
+        <p><input type="submit" value="Submit"/> <input type="reset" value="Reset"/></p>
+    </form>
+</div>
+</body>
+</html>

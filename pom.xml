@@ -25,13 +25,14 @@
         <module>spring-boot-jdbc-template</module>
         <module>spring-boot-jdbc-transaction</module>
         <module>spring-boot-jpa-config</module>
+        <module>spring-web-thymeleaf</module>
     </modules>
 
     <properties>
-        <spring.framework.version>5.1.18.RELEASE</spring.framework.version>
+        <java.source.target.version>11</java.source.target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>${java.source.target.version}</maven.compiler.source>
+        <maven.compiler.target>${java.source.target.version}</maven.compiler.target>
     </properties>
     <dependencyManagement>
         <dependencies>
