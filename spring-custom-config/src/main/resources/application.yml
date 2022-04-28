@@ -1,0 +1,17 @@
+app:
+  name: spring-custom-config
+  description: Practical Spring Boot Example
+
+  servers:
+    - server1
+    - server2
+    - server3
+
+  environments:
+    dev:
+      name: Development Environment
+      url: https://dev.example.com
+
+    prod:
+      name: Prod Environment
+      url: https://prod.example.com
