@@ -28,6 +28,7 @@
         <module>spring-web-thymeleaf</module>
         <module>spring-without-autoconfiguration</module>
         <module>spring-custom-config</module>
+        <module>spring-logs-jul</module>
     </modules>
 
     <properties>
