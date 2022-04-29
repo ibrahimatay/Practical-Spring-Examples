@@ -29,6 +29,7 @@
         <module>spring-without-autoconfiguration</module>
         <module>spring-custom-config</module>
         <module>spring-logs-jul</module>
+        <module>spring-logs-log4j2</module>
     </modules>
 
     <properties>
