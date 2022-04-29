@@ -14,7 +14,7 @@
             <PatternLayout pattern="${sys:CONSOLE_LOG_PATTERN}"/>
         </Console>
 
-        <File name="File" fileName="module04-question07-log4j2.log">
+        <File name="File" fileName="spring-logs-log4j2-log4j2.log">
             <PatternLayout pattern="${sys:FILE_LOG_PATTERN}"/>
         </File>
     </Appenders>
