@@ -34,6 +34,7 @@
         <module>spring-config-profile</module>
         <module>spring-autoconfigure-factories</module>
         <module>java-custom-jmx</module>
+        <module>spring-custom-health-indicator</module>
     </modules>
 
     <properties>
