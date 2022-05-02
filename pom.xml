@@ -32,6 +32,7 @@
         <module>spring-logs-log4j2</module>
         <module>spring-logs-logback</module>
         <module>spring-config-profile</module>
+        <module>spring-autoconfigure-factories</module>
     </modules>
 
     <properties>
