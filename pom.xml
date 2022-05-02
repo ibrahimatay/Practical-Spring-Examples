@@ -31,6 +31,7 @@
         <module>spring-logs-jul</module>
         <module>spring-logs-log4j2</module>
         <module>spring-logs-logback</module>
+        <module>spring-config-profile</module>
     </modules>
 
     <properties>
