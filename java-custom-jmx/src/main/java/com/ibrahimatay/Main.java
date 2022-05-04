@@ -12,6 +12,20 @@ import java.lang.reflect.Member;
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 
+/**
+ * To JMX connection between different servers add the following params to your jvm:
+ *
+ *  -Dcom.sun.management.jmxremote.port=8090 \
+ *  -Dcom.sun.management.jmxremote.authenticate=false \
+ *  -Dcom.sun.management.jmxremote.ssl=false \
+ *
+ *  for example:
+ *   java -Dcom.sun.management.jmxremote.port=8090 \
+ *        -Dcom.sun.management.jmxremote.authenticate=false \
+ *        -Dcom.sun.management.jmxremote.ssl=false \
+ *        -jar *-SNAPSHOT.jar
+ */
+
 public class Main  {
     public static void main(String[] args) throws MalformedObjectNameException, NotCompliantMBeanException, InstanceAlreadyExistsException, MBeanRegistrationException {
         MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
