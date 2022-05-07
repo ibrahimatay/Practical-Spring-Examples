@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div class="row mb-3" th:fragment="servlet-context-info">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Servlet Context Info</h5>
+                <p class="card-text">
+                    Running on Servlet Version
+                    <span th:text="${servletContext.majorVersion}"></span>.<span
+                        th:text="${servletContext.minorVersion}"></span>
+                </p>
+                <p class="card-text">
+                    Server Info:
+                    <span th:text="${servletContext.serverInfo}"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

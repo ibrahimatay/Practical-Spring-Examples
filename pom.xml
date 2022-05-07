@@ -37,6 +37,8 @@
         <module>spring-custom-health-indicator</module>
         <module>spring-custom-actuator-metrics</module>
         <module>spring-web-thymeleaf-layout</module>
+        <module>spring-web-scopes-lifecycle</module>
+
     </modules>
 
     <properties>

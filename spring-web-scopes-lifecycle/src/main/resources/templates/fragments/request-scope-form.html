@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div class="row mb-3" th:fragment="request-scope-form">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Request Scope Example</h5>
+                <p class="card-text">Current value in request scope is: [<span th:text="${requestScopeValue}"></span>]
+                </p>
+
+                <form action="#" th:action="@{/saveRequestScopeValue}" method="post">
+                    <div class="form-group">
+                        <label for="requestScopeValue">Value to be set on request level</label>
+                        <input required id="requestScopeValue" name="requestScopeValue" class="form-control" type="text"
+                               placeholder="">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

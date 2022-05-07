@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<main role="main" th:fragment="main">
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div th:insert="fragments/servlet-context-info.html :: servlet-context-info"></div>
+            <div th:insert="fragments/request-scope-form.html :: request-scope-form"></div>
+            <div th:insert="fragments/session-scope-form.html :: session-scope-form"></div>
+            <div th:insert="fragments/application-scope-form.html :: application-scope-form"></div>
+
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>
