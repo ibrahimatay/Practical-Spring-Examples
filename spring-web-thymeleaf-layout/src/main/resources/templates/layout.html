@@ -1,0 +1,8 @@
+<!doctype html>
+<html th:fragment="layout (content)" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head.html :: head"></head>
+<body>
+<header th:replace="fragments/header.html :: header"></header>
+<main th:replace="${content}"></main>
+</body>
+</html>

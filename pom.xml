@@ -36,6 +36,7 @@
         <module>java-custom-jmx</module>
         <module>spring-custom-health-indicator</module>
         <module>spring-custom-actuator-metrics</module>
+        <module>spring-web-thymeleaf-layout</module>
     </modules>
 
     <properties>
