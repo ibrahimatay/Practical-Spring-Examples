@@ -38,6 +38,7 @@
         <module>spring-custom-actuator-metrics</module>
         <module>spring-web-thymeleaf-layout</module>
         <module>spring-web-scopes-lifecycle</module>
+        <module>spring-web-query-parameters</module>
 
     </modules>
 
