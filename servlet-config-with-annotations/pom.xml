@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>servlet-config-with-annotations</artifactId>
-
+    <packaging>war</packaging>
     <dependencies>
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
