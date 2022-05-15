@@ -39,7 +39,8 @@
         <module>spring-web-thymeleaf-layout</module>
         <module>spring-web-scopes-lifecycle</module>
         <module>spring-web-query-parameters</module>
-
+        <module>servlet-config-with-annotations</module>
+        <module>servlet-config-with-webxml</module>
     </modules>
 
     <properties>
