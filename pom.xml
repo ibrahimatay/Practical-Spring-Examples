@@ -45,6 +45,7 @@
         <module>servlet-event-listener-with-webxml</module>
         <module>servlet-event-listener-with-annotations</module>
         <module>servlet-filters-with-annotations</module>
+        <module>servlet-filters-with-webxml</module>
     </modules>
 
     <properties>
