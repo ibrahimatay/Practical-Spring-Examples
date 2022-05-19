@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+    <display-name>Demo11</display-name>
+    <listener>
+        <listener-class>com.ibrahimatay.listeners.MyContextListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>com.ibrahimatay.listeners.MySessionListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>com.ibrahimatay.listeners.MyRequestListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>com.ibrahimatay.listeners.MyContextAttributeListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.ibrahimatay.MyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/my</url-pattern>
+    </servlet-mapping>
+
+</web-app>

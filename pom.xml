@@ -42,6 +42,7 @@
         <module>servlet-config-with-annotations</module>
         <module>servlet-config-with-webxml</module>
         <module>servlet-lifecycle</module>
+        <module>servlet-event-listener-with-webxml</module>
     </modules>
 
     <properties>
