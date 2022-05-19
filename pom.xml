@@ -41,6 +41,7 @@
         <module>spring-web-query-parameters</module>
         <module>servlet-config-with-annotations</module>
         <module>servlet-config-with-webxml</module>
+        <module>servlet-lifecycle</module>
     </modules>
 
     <properties>
