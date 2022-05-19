@@ -48,6 +48,7 @@
         <module>servlet-filters-with-webxml</module>
         <module>servlet-config-parameter-with-webxml</module>
         <module>servlet-config-parameter-with-annotations</module>
+        <module>servlet-handlers</module>
     </modules>
 
     <properties>
