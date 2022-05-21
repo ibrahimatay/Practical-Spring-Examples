@@ -49,6 +49,7 @@
         <module>servlet-config-parameter-with-webxml</module>
         <module>servlet-config-parameter-with-annotations</module>
         <module>servlet-handlers</module>
+        <module>spring-web-handlers</module>
     </modules>
 
     <properties>
