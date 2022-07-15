@@ -50,6 +50,7 @@
         <module>servlet-config-parameter-with-annotations</module>
         <module>servlet-handlers</module>
         <module>spring-web-handlers</module>
+        <module>servlet-server-programmatically-with-jetty</module>
     </modules>
 
     <properties>
