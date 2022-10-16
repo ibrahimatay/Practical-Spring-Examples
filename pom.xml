@@ -58,8 +58,8 @@
     <properties>
         <java.source.target.version>11</java.source.target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.framework.version>5.1.18.RELEASE</spring.framework.version>
-        <spring.boot.version>2.1.4.RELEASE</spring.boot.version>
+        <spring.framework.version>5.3.23</spring.framework.version>
+        <spring.boot.version>2.7.4</spring.boot.version>
         <maven.compiler.source>${java.source.target.version}</maven.compiler.source>
         <maven.compiler.target>${java.source.target.version}</maven.compiler.target>
     </properties>
