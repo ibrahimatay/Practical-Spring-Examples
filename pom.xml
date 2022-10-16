@@ -52,6 +52,7 @@
         <module>spring-web-handlers</module>
         <module>servlet-server-programmatically-with-jetty</module>
         <module>spring-testing-output-capture</module>
+        <module>spring-testing-for-models</module>
     </modules>
 
     <properties>
