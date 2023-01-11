@@ -11,7 +11,6 @@
     <modules>
         <module>spring-boot-context-annotation</module>
         <module>spring-boot-context-bean-scopes</module>
-        <module>java-lombok</module>
         <module>spring-boot-stereotypes</module>
         <module>spring-boot-context-web</module>
         <module>spring-testing</module>
@@ -33,7 +32,6 @@
         <module>spring-logs-logback</module>
         <module>spring-config-profile</module>
         <module>spring-autoconfigure-factories</module>
-        <module>java-custom-jmx</module>
         <module>spring-custom-health-indicator</module>
         <module>spring-custom-actuator-metrics</module>
         <module>spring-web-thymeleaf-layout</module>
