@@ -57,7 +57,7 @@
         <java.source.version>11</java.source.version>
         <java.target.version>11</java.target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.framework.version>4.3.7.RELEASE</spring.framework.version>
+        <spring.framework.version>4.3.30.RELEASE</spring.framework.version>
         <spring.boot.version>2.7.4</spring.boot.version>
         <slf4j.version>2.0.0-alpha7</slf4j.version>
         <servlet.version>4.0.4</servlet.version>
