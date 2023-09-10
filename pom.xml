@@ -54,12 +54,16 @@
     </modules>
 
     <properties>
-        <java.source.target.version>11</java.source.target.version>
+        <java.source.version>11</java.source.version>
+        <java.target.version>11</java.target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.framework.version>5.3.23</spring.framework.version>
+        <spring.framework.version>4.3.7.RELEASE</spring.framework.version>
         <spring.boot.version>2.7.4</spring.boot.version>
-        <maven.compiler.source>${java.source.target.version}</maven.compiler.source>
-        <maven.compiler.target>${java.source.target.version}</maven.compiler.target>
+        <slf4j.version>2.0.0-alpha7</slf4j.version>
+        <servlet.version>4.0.4</servlet.version>
+        <jetty.version>10.0.11</jetty.version>
+        <maven.compiler.source>${java.source.version}</maven.compiler.source>
+        <maven.compiler.target>${java.target.version}</maven.compiler.target>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -82,13 +86,11 @@
                 <artifactId>commons-codec</artifactId>
                 <version>1.12</version>
             </dependency>
-
             <dependency>
                 <groupId>javax.annotation</groupId>
                 <artifactId>javax.annotation-api</artifactId>
                 <version>1.3.2</version>
             </dependency>
-
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
