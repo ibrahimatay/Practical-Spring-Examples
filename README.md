@@ -4,6 +4,14 @@
 
 This repository is intended to provide hands-on experience with Spring and commonly used package applications through a series of examples. It is designed to help you learn and become proficient in using these tools quickly.
 
+## Solutions
+
+| Section | Case | Description |
+|---------|------|-------------|
+|         |      |             |
+|         |      |             |
+|         |      |             |
+
 ![image](/docs/Celebrating-20-Years-of-Spring.jpeg)
 
 ## Notes
