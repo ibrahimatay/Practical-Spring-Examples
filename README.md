@@ -4,6 +4,8 @@
 
 This repository is intended to provide hands-on experience with Spring and commonly used package applications through a series of examples. It is designed to help you learn and become proficient in using these tools quickly.
 
+![image](/docs/Celebrating-20-Years-of-Spring.jpeg)
+
 ## Solutions
 
 | Section | Case | Description |
@@ -11,8 +13,6 @@ This repository is intended to provide hands-on experience with Spring and commo
 |         |      |             |
 |         |      |             |
 |         |      |             |
-
-![image](/docs/Celebrating-20-Years-of-Spring.jpeg)
 
 ## Notes
 - [Spring Framework Versions](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions)
