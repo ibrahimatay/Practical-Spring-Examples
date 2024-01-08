@@ -8,11 +8,12 @@ This repository is intended to provide hands-on experience with Spring and commo
 
 ## Solutions
 
-| Section | Case | Description |
-|---------|------|-------------|
-|         |      |             |
-|         |      |             |
-|         |      |             |
+| Section        | Case                                                                                    | Description |  
+|----------------|-----------------------------------------------------------------------------------------|-------------|
+| Servlet Config | [servlet-config-parameter-with-annotations](/servlet-config-parameter-with-annotations) |             | 
+|                | [servlet-config-parameter-with-webxml](/servlet-config-parameter-with-webxml)           |             |
+|                | [servlet-config-with-annotations](/servlet-config-with-annotations)                     |             |
+|                | [servlet-config-with-webxml](/servlet-config-with-webxml)                               |             |
 
 ## Notes
 - [Spring Framework Versions](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions)
