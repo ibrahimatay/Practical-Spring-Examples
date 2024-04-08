@@ -1,4 +1,5 @@
 [![Java CI with Maven](https://github.com/ibrahimatay/Practical-Spring-Examples/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Practical-Spring-Examples/actions/workflows/maven.yml)
+[![CodeQL](https://github.com/ibrahimatay/Practical-Spring-Examples/actions/workflows/codeql.yml/badge.svg)](https://github.com/ibrahimatay/Practical-Spring-Examples/actions/workflows/codeql.yml)
 
 # Practical Spring Examples
 
